@@ -41,8 +41,21 @@
     },
     "repositories": [
         {
-          "type": "path",
-          "url": "packages/ecjasso/service-maker"
+            "type": "package",
+            "package": {
+                "name": "ecjasso/service-maker",
+                "version": "dev-master",
+                "source": {
+                    "url": "git://github.com/ecjasso/service-maker.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "autoload": {
+                    "psr-0" : {
+                        "Ecjasso\\ServiceMaker" : "src"
+                    }
+                }
+            }          
         }
       ]
 }
