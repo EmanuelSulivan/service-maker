@@ -4,8 +4,7 @@
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
-        "psr-4": {
-            "App\\": "app/",
+        "psr-4": {            
             "Ecjasso\\ServiceMaker\\": "src/"
         }
     }      
