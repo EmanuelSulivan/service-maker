@@ -1,0 +1,12 @@
+{
+    "name": "jassoec/service-maker",
+    "description": "Creates laravel files for services pattern",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Ecjasso\\ServiceMaker\\": "src/"
+        }
+    }      
+}
